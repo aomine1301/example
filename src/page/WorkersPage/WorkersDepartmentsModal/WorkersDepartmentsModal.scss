@@ -1,0 +1,14 @@
+@import "../WorkersPage";
+
+.avatar-department-column{
+  width: 70px;
+}
+
+.department-button{
+  background: $colorResetButton !important;
+  color: white !important;
+
+  & :hover{
+    color: #a89e9e;
+  }
+}

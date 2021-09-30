@@ -1,0 +1,50 @@
+.main-menu {
+  margin: 0;
+  padding-top: 35px !important;
+  background: #484848 !important;
+  min-height: calc(100vh - 50px);
+
+  :global(.ant-menu-submenu-title) {
+    padding-left: 6px !important;
+  }
+
+  :global(.ant-menu-item-icon){
+    color: white;
+  }
+
+  :global(.ant-menu-submenu-arrow) {
+    right: 4px !important;
+    color: white;
+  }
+
+  :global(.ant-menu-submenu-active .ant-menu-item-icon), :global(.ant-menu-submenu-active .ant-menu-submenu-arrow){
+    color: red !important;
+  }
+
+  :global(.ant-menu-submenu-title:hover) .device-icon  {
+    fill: red;
+  }
+
+  :global(.ant-menu-submenu-selected .ant-menu-submenu-arrow), :global(.ant-menu-submenu-selected .ant-menu-item-icon) {
+    color:  #1890ff;
+  }
+
+  :global(.ant-menu-submenu-selected) .device-icon  {
+    fill: #1890ff;
+  }
+}
+
+.map-icon, .file-icon {
+  margin-top: 3px;
+}
+
+.device-icon {
+  margin-top: 6px;
+  width: 49px;
+  transition: fill 0.3s !important;
+  fill: white;
+}
+
+.setting-icon {
+  margin-top: 3px;
+}

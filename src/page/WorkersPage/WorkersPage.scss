@@ -1,0 +1,46 @@
+$colorBackground: #3b0e15;
+$colorResetButton: #830920;
+
+.container-content {
+  width: 96%;
+  margin: 20px auto;
+}
+
+label {
+  font-size: 12px;
+}
+
+.tel-style-bold {
+  span {
+    font-weight: bold;
+  }
+}
+
+.tel-style-cursive {
+  margin: 0;
+  padding: 0;
+
+  span {
+    font-style: italic;
+  }
+}
+
+.avatar-image {
+  width: 50px;
+  height: 50px;
+}
+
+.name-field{
+  font-weight: bold;
+}
+
+.margin-field{
+  margin: 5px 10px !important;
+}
+
+.column-container{
+  display:flex ;
+  align-items: center;
+}
+
+

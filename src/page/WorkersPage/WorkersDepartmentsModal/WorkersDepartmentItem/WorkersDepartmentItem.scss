@@ -1,0 +1,47 @@
+@import "../../WorkersPage";
+
+.container {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 3px 0;
+
+  img {
+    margin: auto 10px auto 0
+  }
+}
+
+.input-container {
+  width: 80%;
+  margin: auto 0;
+  text-align: left;
+}
+
+.icon_check {
+  padding: 1px;
+  cursor: pointer;
+  font-size: 26px;
+  margin: 10px 10px 0 10px;
+
+  svg{
+    color: $colorBackground;
+  }
+
+  &:hover {
+    transform: scale(1.4);
+  }
+}
+.icon_close {
+  padding: 1px;
+  cursor: pointer;
+  font-size: 26px;
+  margin: 10px 10px 0 10px;
+
+  svg{
+    color: red;
+  }
+
+  &:hover {
+    transform: scale(1.4);
+  }
+}

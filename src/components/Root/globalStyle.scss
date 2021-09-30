@@ -1,0 +1,79 @@
+$backgroundColor: #F2F2F2;
+
+.menu-wrapper {
+  display: flex;
+  background-color: $backgroundColor;
+}
+
+:global(.position_relative) {
+  position: relative;
+}
+
+:global(.inline-flex) {
+  display: inline-flex;
+}
+
+:global(.flex) {
+  display: flex;
+}
+
+:global(.flex_wrap) {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+:global(.direction_column) {
+  display: flex;
+  flex-direction: column;
+}
+
+:global(.align-items_center){
+  display: flex;
+  align-items: center;
+}
+
+:global(.direction-column_center) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+:global(.align-items_center) {
+  display: flex;
+  align-items: center;
+}
+
+
+// Ant
+// Modal close x icon
+:global(.ant-modal-close-x) {
+  font-size: 25px !important;
+}
+
+// Table Ant delete thead border-right
+:global(.ant-table-thead .ant-table-cell){
+  border-bottom: none;
+
+  &:before {
+    display: none !important;
+  }
+}
+
+:global(.ant-table-cell) {
+  vertical-align: middle;
+}
+
+// Ant Modal
+:global(.ant-modal-centered) {
+  overflow-x: hidden;
+}
+
+:global(.ant-table-wrapper) {
+  margin: 0 auto;
+  max-width: 1910px !important;
+}
+
+:global(h1), :global(h2), :global(h3), :global(h4),:global(h5), :global(h6) {
+  margin-bottom: 0.4em;
+}

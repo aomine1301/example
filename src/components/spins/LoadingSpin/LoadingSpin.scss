@@ -1,0 +1,26 @@
+.spin-container {
+  left: 50%;
+  top: 50%;
+  display: none;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  opacity: 0;
+  transition: opacity ease 3.3s;
+}
+
+.spin-container_fixed {
+  position: fixed;
+}
+
+.spin-container_absolute {
+  position: absolute;
+} 
+
+.spin-container_show {
+  display: block;
+}
+
+.spin-container_animation {
+  opacity: 1;
+  transition: opacity ease 3.3s;
+}
